@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">PhotoGate</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="set_up">Set Up</string>
+
+    <string name="photogate">Photo Gate</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="welcome">Welcome!</string>
+    <string name="set_up_permissions_title">Set up permissions</string>
+    <string name="set_up_permissions_text">Photo Gate requires some permissions to work properly</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="battery_optimization_text">Battery Optimization</string>
+    <string name="turn_off_text">Android may stop the media server after some time. To prevent this, turn off battery optimization.</string>
+    <string name="go_to_settings">Go to settings</string>
+    <string name="all_set_title">All Set!</string>
+    <string name="all_set_text">Now you can start!</string>
+    <string name="title_activity_app">MainActivity</string>
+    <string name="title_status">Status</string>
+    <string name="title_log">Log</string>
+    <string name="title_settings">Settings</string>
+</resources>

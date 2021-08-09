@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.timermakov.photogate.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.timermakov.photogate.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/batteryOptimizationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/batteryOptimizationFragment"
+        android:name="com.timermakov.photogate.BatteryOptimizationFragment"
+        android:label="fragment_battery_optimization"
+        tools:layout="@layout/fragment_battery_optimization" >
+        <action
+            android:id="@+id/action_batteryOptimizationFragment_to_allSetFragment"
+            app:destination="@id/allSetFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/allSetFragment"
+        android:name="com.timermakov.photogate.AllSetFragment"
+        android:label="AllSetFragment" />
+</navigation>
